@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;  
+}
+body{
+    height: 100vh;
+    background-image: url(./underwater-4286600_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex
+    ;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 30%;
+    height: 250px;
+    background-color: azure;
+    box-shadow: 11px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+#timer{
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    padding: 35px;
+    margin: 0px auto;
+   
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    border: none;
+    margin: 0 10px;
+    width:3rem;
+    height: 3rem;
+}
+#play{
+color: aliceblue;
+   font-size: 2rem;
+}
+#resetall{
+color: aliceblue;
+    font-size: 2rem;
+ }
+ #reset{
+    
+    background-color: red;
+ }
+ #start{
+    
+    background-color: rgb(0, 255, 30);
+ }
